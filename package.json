@@ -1,0 +1,37 @@
+{
+  "name": "parselog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:auto": "mocha -w",
+    "start": "micro",
+    "dev": "micro-dev -i db/*",
+    "coverage": "nyc --reporter=html --reporter=text --all mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "byline": "^5.0.0",
+    "cli-progress": "^1.6.0",
+    "eslint": "^4.11.0",
+    "micro": "^9.0.1",
+    "microrouter": "^3.0.0",
+    "mysql": "^2.15.0",
+    "nedb": "^1.8.0",
+    "ssh2-sftp-client": "^2.0.1",
+    "winston": "^3.0.0-rc1",
+    "xregexp": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "micro-dev": "^1.4.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "streamtest": "^1.2.3",
+    "tmp": "0.0.33"
+  }
+}
